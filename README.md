@@ -1,4 +1,4 @@
-# lab2_v2_ggr472
+# LAB2_ReadMe
 **Lab 2 GGR472: Etobicoke General Hospital Map**
 2nd version of lab 2 repository for GGR472 course
 Includes an html, css, and js file with comments. html is embedded with a map box map
