@@ -14,12 +14,12 @@ h3 {
   text-align: center;
 }
 
-/* defined the styling and centering of the left-panel elements */
+/* defined the centered alignment of the left-panel elements */
 .left-panel {
   text-align: center;
 }
 
-/* center the teddy bear doctor image */
+/* centered the teddy bear doctor image on the left-panel */
 img {
   max-width: 150px;
   display: block;
@@ -29,7 +29,7 @@ img {
   font-weight: bold;  
 }
 
-
+/* set the dimensions of the map container to take up the entire left-panel */
 #map {
   height: 100%;
   width: 100%;
