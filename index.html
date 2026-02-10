@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Etobicoke General Hospital</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<script src='https://api.mapbox.com/mapbox-gl-js/v3.18.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v3.18.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+
+<div class="container-fluid">
+<div class="row vh-100">
+
+<!-- defines the left panel, or the left side of the screen -->
+<div class="col-md-6 p-4 left-panel mt-5">
+<h1>Etobicoke General Hospital Map</h1>
+<br>
+<h2>With the Humber College Tranist Station Point</h2>
+<br>
+<h3>Created by Leila Mekchoudi</h3>
+
+<img src="Images/dr_teddybear.png"
+     alt="Teddy bear doctor" >
+
+<p class="geojson-title"> 
+	View the GeoJSON file for the Etobicoke General Hospital polygon.
+	<br>
+</p>
+
+<a class="btn btn-primary"
+   target="_blank"
+   href="data/Etobicoke_General_Hospital.geojson">
+GeoJSON File
+</a>
+
+<p>
+	<br>
+Find out more information about the
+<a href="https://www.williamoslerhs.ca/en/visiting-us/etobicoke-general-hospital.aspx"
+target="_blank">
+Etobicoke General Hospital
+</a>
+</p>
+
+</div>
+
+<!-- RIGHT SIDE -->
+<div class="col-md-6 p-4">
+<div id="map"></div>
+</div>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

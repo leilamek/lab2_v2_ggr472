@@ -1,0 +1,36 @@
+/* aligned both text features to the corresponding left side of the screen */
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* defined the styling and centering of the left-panel elements */
+.left-panel {
+  text-align: center;
+}
+
+/* center the teddy bear doctor image */
+img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+.geojson-title {
+  font-weight: bold;  
+}
+
+
+#map {
+  height: 100%;
+  width: 100%;
+}
